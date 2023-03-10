@@ -1,0 +1,16 @@
+.select {
+    display: flex;
+    left: auto;
+    max-width: 200px;
+    font-size: 1em;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+.select__option {
+    font-size: 1em;
+}
+
+.select__option2 {
+    font-size: 1em;
+}

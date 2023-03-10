@@ -1,0 +1,44 @@
+.header {
+    height: 100px;
+    background-color: blue;
+    position: relative;
+    margin-bottom: 2.4em;
+}
+
+.header__img {
+    position: absolute;
+    width: 60%;
+    max-width: 400px;
+    z-index: 1;
+    left: 10%;
+    top: 10px;
+}
+
+.header__yellow {
+    height: 45px;
+    width: 100%;
+    background-color: yellowgreen;
+    position: absolute;
+    bottom: 0;
+}
+
+.header__circle {
+    width: 80px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    bottom: -12px;
+    right: 10%;
+    border: 10px solid yellowgreen;
+}
+
+.header__circleinte {
+    position: absolute;
+    width: 40px;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    background-color: blue;
+    left: 50%;
+    top: 50%;
+}

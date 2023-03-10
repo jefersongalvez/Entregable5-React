@@ -1,0 +1,297 @@
+.card {
+    width: 100%;
+    max-width: 350px;
+    border-radius: 1em;
+    border: 12px solid rgb(105, 8, 92);
+    overflow: hidden;
+    transition: transform 100ms ease;
+    cursor: pointer;
+}
+
+.card:hover {
+    transform: scale(1.04);
+}
+
+.card__header {
+    height: 200px;
+    background-color: grey;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.card__img {
+    width: 70%;
+    position: absolute;
+    bottom: -60px;
+    left: 40%;
+    transform: translateX(-50%);
+
+}
+
+.card__name {
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 500;
+    margin-bottom: 0.1em;
+
+
+}
+
+.card__listtype {
+    display: flex;
+    justify-content: center;
+    padding: none;
+    gap: 1.2em;
+}
+
+.card__itemtype {
+    text-transform: capitalize;
+    position: relative;
+    justify-content: center;
+    padding: none;
+    margin-bottom: 0.3em;
+}
+
+.card__itemtype:nth-child(2)::before {
+    content: '/';
+    position: absolute;
+    left: -10px;
+}
+
+.card__liststat {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 0.4em 1.2em;
+    gap: 0.6em 0.1em;
+}
+
+.card__itemstat {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3em;
+    align-items: center;
+}
+
+.card__statname {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: grey;
+}
+
+.bg-grass {
+    background-image: linear-gradient(178.92deg, #7EC6C5 0.92%, #ABDAC6 47.46%);
+}
+
+.bg-fire {
+    background-image: linear-gradient(176.37deg, #800407 -32.26%, #E35825 22.55%);
+}
+
+.bg-water {
+    background-image: linear-gradient(179.57deg, #133258 -70.14%, #1479fB 56.16%);
+}
+
+.bg-bug {
+    background-image: linear-gradient(178.92deg, #5dcbca 0.92%, #cfeb9a 47.46%);
+}
+
+.bg-normal {
+    background-image: linear-gradient(178.92deg, rgb(227, 203, 203) 0.92%, #e8ecba 47.46%);
+}
+
+.bg-poison {
+    background-image: linear-gradient(178.92deg, #da98cc 0.92%, #6f0d6f 47.46%);
+}
+
+.bg-electric {
+    background-image: linear-gradient(178.92deg, #646262 0.92%, #effa20 57.46%);
+}
+
+.bg-ground {
+    background-image: linear-gradient(178.92deg, #dad155 0.92%, rgba(165, 42, 42, 0.785) 57.46%);
+}
+
+.bg-fairy {
+    background-image: linear-gradient(178.92deg, #edb0dc 0.92%, #a8e9ee 57.46%);
+}
+
+.bg-fighting {
+    background-image: linear-gradient(178.92deg, rgba(130, 185, 209, 0.922) 0.92%, rgb(188, 175, 175) 57.46%);
+}
+
+.bg-psychic {
+    background-image: linear-gradient(178.92deg, grey 0.92%, #fad50470 57.46%);
+}
+
+.bg-rock {
+    background-image: linear-gradient(178.92deg, #faf8f8 5.92%, rgba(5, 5, 5, 0) 57.46%);
+}
+
+.bg-ghost {
+    background-image: linear-gradient(178.92deg, #6b047b 5.92%, black 57.46%);
+}
+
+.bg-ice {
+    background-image: linear-gradient(179.57deg, #e6e6e6 3.14%, #1ee5f0fd 56.16%);
+}
+
+.bg-dragon {
+    background-image: linear-gradient(179.57deg, grey 3.14%, #51022ffd 56.16%);
+
+}
+
+
+.border-grass {
+    border-color: rgba(87, 188, 119, 0.374);
+}
+
+.border-fire {
+    border-color: #f07346;
+}
+
+.border-water {
+
+    border-color: #1479fB;
+
+}
+
+.border-bug {
+
+    border-color: #c2e87d;
+}
+
+.border-normal {
+
+    border-color: #e8f093;
+}
+
+.border-poison {
+
+    border-color: #6f0d6f;
+}
+
+.border-electric {
+
+    border-color: #e7f308d8;
+}
+
+.border-ground {
+
+    border-color: rgba(157, 38, 38, 0.865);
+}
+
+.border-fairy {
+
+    border-color: #a8e9ee;
+}
+
+.border-fighting {
+
+    border-color: rgb(188, 175, 175);
+}
+
+.border-psychic {
+
+    border-color: #fad504a5;
+}
+
+.border-rock {
+
+    border-color: rgba(2, 2, 2, 0.217);
+}
+
+.border-ghost {
+
+    border-color: black;
+}
+
+.border-ice {
+
+    border-color: #1ee5f0fd;
+}
+
+.border-dragon {
+
+    border-color: #51022ffd;
+
+}
+
+.color-grass {
+    color: rgb(3, 131, 44);
+}
+
+.color-fire {
+    color: #eb4b11;
+}
+
+.color-water {
+
+    color: #076ef4;
+
+}
+
+.color-bug {
+
+    color: #5f8f04;
+}
+
+.color-normal {
+
+    color: #7d8710;
+}
+
+.color-poison {
+
+    color: #670067;
+}
+
+.color-electric {
+
+    color: #80860ad8;
+}
+
+.color-ground {
+
+    color: rgba(107, 4, 4, 0.865);
+}
+
+.color-fairy {
+
+    color: #036971;
+}
+
+.color-fighting {
+
+    color: rgb(107, 101, 101);
+}
+
+.color-psychic {
+
+    color: #796804a5;
+}
+
+.color-rock {
+
+    color: rgba(10, 5, 5, 0.831);
+}
+
+.color-ghost {
+
+    color: rgb(31, 1, 40);
+}
+
+.color-ice {
+
+    color: #13888efd;
+}
+
+.color-dragon {
+
+    color: #31011cfd;
+
+}
+
+ul {
+    list-style-type: none;
+}
